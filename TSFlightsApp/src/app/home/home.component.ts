@@ -13,7 +13,9 @@ export class HomeComponent implements OnInit {
 
   constructor(private flightsService: FlightsService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  query(): void {
     this.flightsService.getFlights().subscribe(data =>{
       this.flights = data;
     })
