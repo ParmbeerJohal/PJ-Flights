@@ -20,6 +20,16 @@ export class FlightsController {
     return this.flightService.findAll();
   }
 
+  @Get("cities/origins")
+  getOrigins(): Promise<String[]> {
+    return this.flightService.getFlightOrigins();
+  }
+
+  @Get("cities/destinations")
+  getDestinations(): Promise<String[]> {
+    return this.flightService.getFlightDestinations();
+  }
+
   // QUERY
   @Get("query/:orig/:dest")
   async query(@Param('orig') orig, @Param('dest') dest): Promise<any> {
