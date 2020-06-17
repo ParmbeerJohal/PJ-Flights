@@ -33,13 +33,11 @@ export class FlightsService {
   }
 
   postFlight(flight: Flight) {
-    return this.http.post(`${this.backEndURL}/flights`,flight).subscribe(data =>{
-      console.log("data posted to server!")
-    })
+    return this.http.post(`${this.backEndURL}/flights`,flight);
   }
 
   deleteFlight(id: number) {
-    
+     return this.http.post(`${this.backEndURL}/flights/${id}/delete`, null);
   }
 
   updateFlight(flight:Flight) {

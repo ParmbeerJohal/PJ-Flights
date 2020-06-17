@@ -38,6 +38,16 @@ export class AdminComponent implements OnInit {
     });
   }
 
+  delete(flight:Flight){
+    if (window.confirm('are you sure you want to delete this flight? ')){
+      this.flightService.deleteFlight(flight.id).subscribe(data =>{
+        if(data && data['affected']){
+          this.refresh();
+        }
+      });
+    }
+  }
+
   toggleNonStop(){
     this.nonstop = !this.nonstop;
   }
@@ -51,8 +61,11 @@ export class AdminComponent implements OnInit {
       arrive: this.arrive,
       nonstop: this.nonstop
     }
-    this.flightService.postFlight(flight);
-
+    this.flightService.postFlight(flight).subscribe(data => {
+      if(data && data['origin']){
+        this.refresh();
+      }
+    });
   }
 
 }
