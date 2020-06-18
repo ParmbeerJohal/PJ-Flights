@@ -21,6 +21,6 @@ Developed using:
 - run `npm run start` or `yarn run` within each directory mentioned above
 
 
-<img src="https://github.com/ParmbeerJohal/PJ-Flights/blob/master/PJAngular/src/assets/home_page.png" width="200px"/>
+<img src="https://github.com/ParmbeerJohal/PJ-Flights/blob/master/PJAngular/src/assets/home_page.png" width="700px"/>
 <br>
-<img src="https://github.com/ParmbeerJohal/PJ-Flights/blob/master/PJAngular/src/assets/admin_page.png" width="200px"/>
+<img src="https://github.com/ParmbeerJohal/PJ-Flights/blob/master/PJAngular/src/assets/admin_page.png" width="700px"/>
