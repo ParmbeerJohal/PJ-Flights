@@ -19,3 +19,8 @@ Developed using:
 - Have the npm or yarn CLI package managers downloaded
 - run `npm install` or `yarn upgrade` in the PJAngular and the PJNest directories
 - run `npm run start` or `yarn run` within each directory mentioned above
+
+
+<img src="https://github.com/ParmbeerJohal/PJ-Flights/PJAngular/src/assets/home_page.png" width="200px"/>
+<br>
+<img src="https://github.com/ParmbeerJohal/PJ-Flights/PJAngular/src/assets/admin_page.png" width="200px"/>
