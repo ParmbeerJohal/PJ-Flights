@@ -13,3 +13,9 @@ Developed using:
 - NestJS framework with REST API functionality
 - TypeORM for communicating with the database
 - PostgreSQL for RDBMS
+
+## To host locally:
+- Simply clone the repository
+- Have the npm or yarn CLI package managers downloaded
+- run `npm install` or `yarn upgrade` in the PJAngular and the PJNest directories
+- run `npm run start` or `yarn run` within each directory mentioned above
