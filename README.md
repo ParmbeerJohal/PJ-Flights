@@ -17,7 +17,7 @@ Developed using:
 ## To host locally:
 - Simply clone the repository
 - Have the npm or yarn CLI package managers downloaded
-- run `npm install` or `yarn upgrade` in the PJAngular and the PJNest directories
+- run `npm install` or `yarn upgrade` in the PJAngular and the PJNest directories to restore the modules
 - run `npm run start` or `yarn run` within each directory mentioned above
 
 
