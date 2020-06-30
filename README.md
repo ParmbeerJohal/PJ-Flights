@@ -1,4 +1,4 @@
-<p>View website <a href="https://pj-flights.herokuapp.com/home" target="_blank"><b>here</b></a></p>
+<h2>View website <a href="https://pj-flights.herokuapp.com/home" target="_blank"><b>here</b></a></h2>
 
 # PJ-Flights
 
