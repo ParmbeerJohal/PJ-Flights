@@ -14,11 +14,14 @@ Developed using:
 - TypeORM for communicating with the database
 - PostgreSQL for RDBMS
 
+## PostgreSQL (Database)
+- This application works with a locally hosted PostreSQL RDBMS
+
 ## To host locally:
 - Simply clone the repository
-- Have the npm or yarn CLI package managers downloaded
-- run `npm install` or `yarn upgrade` in the PJAngular and the PJNest directories to restore the modules
-- run `npm run start` or `yarn run` within each directory mentioned above
+- Have the npm CLI package manager downloaded
+- run `npm install` in the PJAngular and the PJNest directories to restore the modules
+- run `npm run start` within each directory mentioned above
 - Open up your browser and type in the url `localhost:4200`
 
 
