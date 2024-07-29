@@ -16,7 +16,7 @@ export class FlightsService {
   }
 
   async findOne(id: number): Promise<any> {
-    return this.flightRepository.findOne(id);
+    return this.flightRepository.findOne({ where: { id } });
   }
 
   async findAll(): Promise<Flights[]> {
@@ -31,8 +31,8 @@ export class FlightsService {
     return this.flightRepository.query("SELECT DISTINCT destination FROM flights");
   }
 
-   async query(orig: string, dest: string): Promise<any> {
-   return await this.flightRepository.find({origin: orig, destination: dest});
+  async query(orig: string, dest: string): Promise<any> {
+    return await this.flightRepository.find({where: {origin: orig, destination: dest}});
   }
 
   async update(flight: Flight): Promise<UpdateResult> {

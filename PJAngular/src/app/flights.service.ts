@@ -47,7 +47,7 @@ export class FlightsService {
   getBackEndURL(): string {
     const segments = document.URL.split('/');
     const reggie = new RegExp(/localhost/);
-    return reggie.test(segments[2]) ? 'http://localhost:3002' : 'https://nestjs-typeorm-postgres.herokuapp.com';
+    return reggie.test(segments[2]) ? 'http://localhost:3002' : 'http://localhost:3002';
   }
 
 }

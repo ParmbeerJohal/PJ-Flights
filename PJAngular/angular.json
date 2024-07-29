@@ -43,7 +43,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -66,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "TSFlightsApp:build"
+            "buildTarget": "TSFlightsApp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "TSFlightsApp:build:production"
+              "buildTarget": "TSFlightsApp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "TSFlightsApp:build"
+            "buildTarget": "TSFlightsApp:build"
           }
         },
         "test": {
@@ -125,7 +124,6 @@
       }
     }
   },
-  "defaultProject": "TSFlightsApp",
   "cli": {
     "analytics": "55e998d5-6146-400d-85f5-7c3ff6f8c852"
   }
