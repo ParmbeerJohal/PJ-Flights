@@ -1,5 +1,3 @@
-<h2>View website <a href="https://pj-flights.herokuapp.com/home" target="_blank"><b>here</b></a></h2>
-
 # PJ-Flights
 
 An SPA decoupled website application that has two basic interfaces: one that allows you to enter plane flights into an admin panel, and another that allows you to search for flights.
